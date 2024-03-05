@@ -1,0 +1,11 @@
+// _products.scss
+.product-item img {
+    border-radius: $border-radius;
+}
+
+.product-button {
+    background-color: $button-color;
+    &:hover {
+        background-color: $button-hover-color;
+    }
+}

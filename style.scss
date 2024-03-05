@@ -1,0 +1,33 @@
+// styles.scss
+@import 'variables';
+@import 'header';
+@import 'products';
+
+
+// Variáveis
+$background-color: #f5f6fa;
+$primary-color: #f18d0a;
+$button-color: #44bd32;
+$button-hover-color: #0d4904;
+$border-radius: 16px;
+$font-family: 'Roboto', sans-serif;
+
+// Utilização das variáveis
+body {
+    background-color: $background-color;
+}
+
+header {
+    background-color: $primary-color;
+}
+
+.product-item img {
+    border-radius: $border-radius;
+}
+
+.product-button {
+    background-color: $button-color;
+    &:hover {
+        background-color: $button-hover-color;
+    }
+}
